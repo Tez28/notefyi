@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+// add routes
 app.use("/", htmlroutes);
 
 app.use("/api", apiroutes);
