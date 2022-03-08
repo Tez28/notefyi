@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Tez28/notefyi/issues"
   },
-  "homepage": "https://github.com/Tez28/notefyi#readme"
+  "homepage": "https://github.com/Tez28/notefyi#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
